@@ -1,6 +1,7 @@
 # RTIMULib2 - a versatile C++ and Python 9-dof, 10-dof and 11-dof IMU library
 ![mpu9250 image](mpu9250-9-dof-imu.jpg)
-Modify MPU9250_ID to 0x73
+
+##Modify MPU9250_ID to 0x73
 
 RTIMULib2 is the simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux system and obtain RTQF or Kalman-filtered quaternion or Euler angle pose data. Basically, two simple function calls (IMUInit() and IMURead()) are pretty much all that's needed to integrate RTIMULib2.
 
